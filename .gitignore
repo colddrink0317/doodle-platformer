@@ -1,0 +1,109 @@
+# ========================================
+# Visual Studio / C++ 專案 .gitignore
+# ========================================
+
+# Visual Studio IDE 狀態檔（自動產生，會被 VS 鎖定）
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.VC.db
+*.VC.db-shm
+*.VC.db-wal
+*.VC.opendb
+
+# 建置輸出資料夾
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Ww][Ii][Nn]32/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# 編譯中間檔
+*.obj
+*.o
+*.lo
+*.la
+*.slo
+*.lai
+*.pch
+*.ipch
+*.gch
+*.iobj
+*.ipdb
+*.tlog
+*.lastbuildstate
+*.unsuccessfulbuild
+
+# 連結器產物
+*.exe
+*.dll
+*.lib
+*.so
+*.dylib
+*.exp
+*.ilk
+*.pdb
+*.idb
+*.map
+
+# 編譯紀錄與配方
+*.log
+*.tlog
+*.recipe
+
+# 預編譯 Header
+ipch/
+*.aps
+*.ncb
+*.opensdf
+*.sdf
+*.cachefile
+
+# CMake / MSBuild 暫存
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+
+# Shader 編譯產物（保留原始 .hlsl，忽略編譯後的 .cso）
+# 如需追蹤 .cso 請自行移除下行
+# *.cso
+
+# Visual Studio Code
+.vscode/
+
+# 其他作業系統檔案
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+
+# ========================================
+# 第三方・版權素材（不公開，需另行取得）
+# 第三者素材（非公開・別途入手が必要）
+# ========================================
+*.png
+*.jpg
+*.jpeg
+*.wav
+
+# 建置產物 / ビルド成果物
+*.exe
+*.cso
+
+# README 用截圖 / README用スクリーンショット
+!docs/**
